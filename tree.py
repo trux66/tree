@@ -10,6 +10,7 @@ mutex = threading.Lock()
 tree = list(open('tree2.txt').read().rstrip())
 # • ●
 
+
 def colored_dot(color):
     if color == 'red':
         return f'\033[91m•\033[0m'
